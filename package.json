@@ -1,0 +1,12 @@
+{
+  "name": "cpf-cnpj-utils",
+  "version": "1.0.0",
+  "description": "Validador, formatador e utilitários para CPF/CNPJ com CLI e interface dark",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node server.js"
+  },
+  "keywords": ["cpf", "cnpj", "validator", "formatter", "cli"],
+  "license": "MIT"
+}

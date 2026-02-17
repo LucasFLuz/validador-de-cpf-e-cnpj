@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CPF-CNPJ-VALIDATOR</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <main class="page">
+        <section class="glow"></section>
+        <section class="card">
+            <span class="badge">VALIDADOR DE CPF E CNPJ</span>
+            
+            <p>Praticidade e velocidade ao validar seus documentos, com uma interface  dark, simples e prazerosa de manusear.</p>
+
+            <label for="docType">Tipo de documento</label>
+            <select id="docType">
+                <option value="AUTO">Automático</option>
+                <option value="CPF">CPF</option>
+                <option value="CNPJ">CNPJ</option>
+            </select>
+
+            <label for="document">Documento</label>
+            <input id="document" type="text" placeholder="Digite CPF ou CNPJ" />
+
+            <div class="actions">
+                <button id="validateButton">Validar</button>
+                <button id="clearButton" class="ghost">Limpar</button>
+            </div>
+
+            <article id="result" class="result hidden"></article>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
